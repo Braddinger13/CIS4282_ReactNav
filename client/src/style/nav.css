@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    height: 100%;
+    width: 99%;
+    background-color: rgba(219, 219, 219, 0.616);
+}
+  
+.view {
+    height: 100%;
+    width: 100%;
+}
+  
+.main {
+    text-align: center;
+ }
+  
+.heading {
+    margin-top: 7rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+  
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    z-index: 1;
+    width: 100%;
+    white-space: nowrap;
+  
+    padding: 0.75rem;
+    padding-top: 1rem;
+    box-shadow: 0rem 0rem 1rem black; /* header 3-D effect*/
+}
+
+.nav .link{
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+h2 {
+    margin-bottom: 2rem;
+}
+  
+  #title {
+    font-size: 2rem;
+    text-align: center;
+  
+    letter-spacing: 0.1rem;
+  }
+  
+  #nav {
+    font-size: 1.3rem;
+    text-align: right;
+  }
+  
+  #footer {
+    /* positioning */
+    text-align: center;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    z-index: 1;
+  
+    /* color and sizing*/
+    padding: 0.5rem;
+    width: 100%;
+    background-color: rgb(183, 99, 3);
+    font-size: 1rem;
+  
+    /* gives 3-D effect to footer */
+    box-shadow: 0rem 0rem 1rem black;
+  }
+
+  .headerText{
+    margin-top: 5rem;
+  }
